@@ -1,0 +1,611 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.imagen-main{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url("../images/image-first.svg");  
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position-y: 80%;
+    background-position-x: 100%;
+}
+
+.data {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding-top:25vh;
+    padding-left: 60vh;
+    line-height: 35px;
+}
+
+.data h3,h2{
+    margin:0px;
+}
+
+.data h2{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    line-height: 34px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.data h3{
+    font-size:26px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 49px;
+    font-weight: 200;
+    letter-spacing: 8px;
+}
+
+.data img{
+    margin-top:1vh;
+}
+
+a.downloadCV {
+     /* position: absolute; */
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 20px;
+     line-height: 49px;
+     padding: 0px 10px;
+     background-color: #962D3E;
+     color: white;
+     text-decoration: none;
+     position: absolute;
+     margin-top: 85vh;
+     letter-spacing: 5px;
+     margin-left: 78%;
+     border-radius: 1px;
+}
+#section-data {
+    min-width: 100vh;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+        height: 100%;
+    
+    
+  }
+
+  #section-data h4{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 29px;
+     letter-spacing: 5.5px;
+     padding-left:30px;
+  }
+  
+  /* Safari 6.1+ */
+  #section-data div:nth-of-type(1) {-webkit-flex-grow: 2;}
+  #section-data div:nth-of-type(2) {-webkit-flex-grow: 2;}
+  #section-data div:nth-of-type(3) {-webkit-flex-grow: 2;}
+  
+  /* Standard syntax */
+  #section-data div:nth-of-type(1) {
+         flex-grow: 2;
+         max-width: 500px;
+         width: 100%;
+    
+    }
+
+    .red-text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* align-content: center; */
+        align-items: center;
+        font-family: 'Source Code Pro', monospace;
+        margin:20px 0px;
+        padding-left:50px;
+        font-size: 18px;
+        margin-top:45px;
+    }
+
+    .red-text img {
+        margin-right: 20px; 
+        /* width: 10%; */
+        width: 7% !important;
+    
+    }
+
+  #section-data div:nth-of-type(2) {
+      flex-grow: 2;
+      max-width: 500px;
+      width: 100%;
+
+
+    }
+
+    .quiensoy .me {
+        width: 45%;
+        border-radius:150px;
+        margin-top: -25%;
+        border:4px solid white;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .quiensoy {
+        display: flex;
+        flex-direction: column;
+      
+    }
+  #section-data div:nth-of-type(3) {
+      flex-grow: 2;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .quiensoy h3{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 25px;
+        letter-spacing: 5.5px;
+        padding-left: 30px;
+        text-align: center;
+        margin:10px 0px;
+    }
+
+    .quiensoy p{
+        font-size: 23px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: justify;
+        padding:0px 40px;
+        line-height: 30px;
+      }
+    
+    .quiensoy a{
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        border:2px solid #059D8E;
+        width: 250px;
+        text-align: center;
+        padding:10px;
+        font-size: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        font-weight: 600;
+        color:black;
+        letter-spacing: 2px;
+    }
+
+    a.btn-cotizar:hover {
+        background-color: #059D8E;
+        color: white;
+    }
+
+    .btn-cotizar img{
+        width: 10%;
+    }
+
+    .formation{
+         display:flex;
+         flex-wrap: wrap;
+         min-width: 100vh;
+         min-height: 60vh;
+         border:0px;
+    }
+   
+    .formation div:nth-of-type(1) {
+    }
+
+    .formation div:nth-of-type(2) {
+        
+    }
+
+   
+    
+    .institute-text {
+        display: flex;
+        margin-left: 120px;
+    }
+
+    .wrapper .institute-text {
+        margin-left: 0px;
+    }
+    span {
+        color: #059D8E;
+        font-size: 75px;
+        /* padding: 0px 10px; */
+        /* margin: 10px; */
+        /* line-height: 10px; */
+        padding-left: 0px;
+    }
+
+    span img{
+        width: 30%;
+        color: #059D8E;
+
+    }
+
+    .text-education {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intitute h3 {
+        margin-left: 110px;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .institute-text {
+    }
+
+    .institute-text img {
+    width: 14%;
+}
+
+    .text-education {
+        /* padding-left: 20px; */
+        padding: 0px 30px;
+    }
+
+    .text-education b {
+        padding: 5px;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    h3.education-title {
+        font-size: 33px;
+        margin-left: 77px;
+        letter-spacing: 7px;
+    }
+
+    .intitute{
+        margin:50px 0px;
+    }
+
+
+    .skills{
+        width:40%;
+        
+    }
+
+   
+
+    .education {
+        width: 50%;
+    }
+    
+
+
+/*carrousel styke*/
+.carousel {
+    margin-right: 15%;
+}
+
+ul.slides {
+    display: block;
+    position: relative;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none; 
+}
+
+
+.slide-container { 
+    display: block; 
+}
+
+.slide-image {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
+
+.slide-image img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 100px;
+    line-height: 600px;
+    color: #fff;
+}
+
+.carousel-controls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.slide-image:hover + .carousel-controls label{
+    opacity: 0.5;
+}
+
+.carousel-controls label:hover {
+    opacity: 1;
+}
+
+.carousel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+.carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+.carousel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+}
+
+.carousel-dots .carousel-dot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 10px;
+}
+
+input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .carousel-controls label {
+     display: block; 
+}
+
+input#img-1:checked ~ .carousel-dots label#img-dot-1,
+input#img-2:checked ~ .carousel-dots label#img-dot-2,
+input#img-3:checked ~ .carousel-dots label#img-dot-3,
+input#img-4:checked ~ .carousel-dots label#img-dot-4,
+input#img-5:checked ~ .carousel-dots label#img-dot-5,
+input#img-6:checked ~ .carousel-dots label#img-dot-6 {
+	opacity: 1;
+}
+
+
+input:checked + .slide-container .nav label { display: block; }
+
+/*fin carrusel style*/
+
+
+.wrapper h3 {
+    text-align: center;
+    margin: 25px 0px;
+    line-height: 50px;
+    font-size: 26px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 5px;
+}
+.wrapper b {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.wrapper p {
+    /* font-size: 20px; */
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding: 0px 2px;
+    line-height: 30px;
+}
+
+.skills h2 {
+    font-size: 33px;
+    /* margin-left: 77px; */
+    letter-spacing: 7px;
+    margin: 20px 0px 20px 0px;
+}
+
+
+  
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1280px) {
+    .menu{
+        left:28%;
+    } 
+  
+    .logo{
+        left:5%;
+        transition: all .7s ease-out;
+  
+        
+    }
+  
+    .menu-scroll{
+        left:92%;
+    }
+  
+    .text p{
+      margin-top:12%;
+      line-height: 80px;
+      font-size: 50px;
+  }
+  
+  
+  
+  .text-scroll:hover {
+      color: red !important;
+  }
+
+  
+   
+  }
+  
+  
+  
+     
+  /* Tablets en horizonal y escritorios normales
+     ------------------------------------------------------------------------- */
+  @media (min-width: 768px) and (max-width: 1024px) { 
+        
+
+
+     
+  }    
+  
+  @media screen and (max-width: 375px) and (max-height: 667px) {
+      
+    .data {
+        min-width: 100vh;
+        padding-left: 0px;
+        position: relative;
+        padding-top: 45vh;
+        padding-bottom: 121px;
+    }
+
+    section#particles-js {
+        min-height: 667px;
+        background-position-x: 57%;
+    }
+    
+
+    a.downloadCV {
+        position: relative;
+        margin-left: 27%;
+        /* margin-top: 30px; */
+        font-size: 30px;
+        padding: 23px;
+    }
+
+    canvas.particles-js-canvas-el {
+        width: 100% !important;
+        height: 86vh !important;
+    }
+
+    img.me {
+        position: absolute;
+        top: 18%;
+        right: 0%;
+        left: 55%;
+        width: 64% !important;
+    }
+    #section-data div {
+        margin: 10px 0px;
+    }
+
+    .quiensoy {
+        padding: 40px 0px;
+    }
+
+    .red-text {
+        font-size: 22px;
+        line-height: 65px;
+        margin-left: 0px;
+        padding: left;
+        padding-left: 20px;
+    }
+
+    .data-redes h4 {
+        margin: 30px 0px;
+        font-size: 38px !important;
+        text-align: center;
+    }
+
+    .wrapper h3 {
+        margin: 0px 0px;
+    }
+
+    section.formation {
+        flex-direction: column;
+    }
+    .education {
+        width: 100%;
+    }
+
+    h3.education-title {
+        margin: 30px 55px;
+    }
+
+    .intitute h3 {
+        margin-left: 54px !important;
+    font-size: 27px;
+    }
+
+    .institute-text {
+        margin-left: 65px;
+    }
+
+    .text-education b {
+        padding: 5px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .skills {
+        display: none;
+    }
+
+
+
+  
+  }
+  
+  /*query for landscape iphone6/7/8*/
+  @media only screen and (max-width : 667px) and (orientation : landscape) {
+  
+   
+  
+  
+  }
+  /* Móviles en horizontal o tablets en vertical
+     --
+     ----------------------------------------------------------------------- */
+  @media (max-width: 767px) { 
+  
+   }   
+  /* Móviles en vertical
+     ------------------------------------------------------------------------- */
+  @media (max-width: 480px) { 
+         
+   }
+
+

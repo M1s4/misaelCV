@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_9" data-name="Rectángulo 9" width="50" height="50" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="phone-icon" clip-path="url(#clip-path)">
+    <g id="phone_in_talk-24px">
+      <path id="Trazado_10" data-name="Trazado 10" d="M0,0H50V50H0Z" fill="none"/>
+      <path id="Trazado_11" data-name="Trazado 11" d="M41.667,32.292A23.667,23.667,0,0,1,34.229,31.1a2.126,2.126,0,0,0-2.125.5l-4.583,4.583A31.344,31.344,0,0,1,13.792,22.458l4.583-4.6a2,2,0,0,0,.521-2.083,23.667,23.667,0,0,1-1.187-7.438A2.089,2.089,0,0,0,15.625,6.25H8.333A2.089,2.089,0,0,0,6.25,8.333,35.414,35.414,0,0,0,41.667,43.75a2.089,2.089,0,0,0,2.083-2.083V34.375A2.089,2.089,0,0,0,41.667,32.292ZM39.583,25H43.75A18.752,18.752,0,0,0,25,6.25v4.167A14.573,14.573,0,0,1,39.583,25ZM31.25,25h4.167A10.42,10.42,0,0,0,25,14.583V18.75A6.242,6.242,0,0,1,31.25,25Z"/>
+    </g>
+  </g>
+</svg>
