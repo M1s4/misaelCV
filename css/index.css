@@ -485,21 +485,16 @@ input:checked + .slide-container .nav label { display: block; }
      
   /* Tablets en horizonal y escritorios normales
      ------------------------------------------------------------------------- */
-  @media (min-width: 768px) and (max-width: 1024px) { 
-        
-
-
-     
-  }    
-  
+ 
   @media screen and (max-width: 375px) and (max-height: 667px) {
       
     .data {
-        min-width: 100vh;
+        min-width: 100%;
         padding-left: 0px;
         position: relative;
-        padding-top: 45vh;
-        padding-bottom: 121px;
+        padding-top: 40vh;
+        padding-bottom: 58px;
+        flex-direction: column;
     }
 
     section#particles-js {
@@ -510,23 +505,38 @@ input:checked + .slide-container .nav label { display: block; }
 
     a.downloadCV {
         position: relative;
-        margin-left: 27%;
+        margin-left: 11%;
         /* margin-top: 30px; */
         font-size: 30px;
-        padding: 23px;
+        z-index: 99;
+        padding: 17px;
+        font-size: 26px;
     }
+    
+    .imagen-main {
+
+        background-attachment: initial;
+        }
+ 
+        #section-data{
+            min-width: 100%;
+        }
 
     canvas.particles-js-canvas-el {
         width: 100% !important;
-        height: 86vh !important;
+    height: 100vh !important;
+    position: absolute;
+    left: 0%;
+    top: 0%;
     }
 
     img.me {
         position: absolute;
         top: 18%;
         right: 0%;
-        left: 55%;
-        width: 64% !important;
+        left: 1%;
+        width: 51% !important;
+
     }
     #section-data div {
         margin: 10px 0px;
@@ -541,7 +551,7 @@ input:checked + .slide-container .nav label { display: block; }
         line-height: 65px;
         margin-left: 0px;
         padding: left;
-        padding-left: 20px;
+        padding-left: 0px;
     }
 
     .data-redes h4 {
@@ -559,6 +569,7 @@ input:checked + .slide-container .nav label { display: block; }
     }
     .education {
         width: 100%;
+        min-height: 100vh;
     }
 
     h3.education-title {
@@ -566,17 +577,17 @@ input:checked + .slide-container .nav label { display: block; }
     }
 
     .intitute h3 {
-        margin-left: 54px !important;
-    font-size: 27px;
+        margin-left: 25px !important;
+        font-size: 19px;
     }
 
     .institute-text {
-        margin-left: 65px;
+        margin-left: 24px;
     }
 
     .text-education b {
         padding: 5px;
-        font-size: 20px;
+        font-size: 15px;
         letter-spacing: 1px;
     }
 
@@ -584,9 +595,42 @@ input:checked + .slide-container .nav label { display: block; }
         display: none;
     }
 
+    .imagen-main {
+        min-width: 100%;
 
+    }
 
-  
+    .formation{
+        min-width: 100%;
+        min-height: 100vh;
+    }
+
+    .institute-text img {
+        width: 25%;
+        height: 10%;
+    }
+
+    .intitute {
+        margin: 93px 0px;
+    }
+    .red-text {
+        font-size: 18px;
+        letter-spacing: 0px !important;
+    }
+
+    .red-text img {
+        margin-left: 15px;
+        width: 7% !important;
+    }
+
+    
+    .quiensoy p {
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        padding: 0px 5px;
+        line-height: 30px;
+    }
   }
   
   /*query for landscape iphone6/7/8*/
@@ -599,13 +643,4 @@ input:checked + .slide-container .nav label { display: block; }
   /* Móviles en horizontal o tablets en vertical
      --
      ----------------------------------------------------------------------- */
-  @media (max-width: 767px) { 
-  
-   }   
-  /* Móviles en vertical
-     ------------------------------------------------------------------------- */
-  @media (max-width: 480px) { 
-         
-   }
-
-
+ 
